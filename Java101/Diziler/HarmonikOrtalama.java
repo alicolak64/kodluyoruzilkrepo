@@ -1,5 +1,3 @@
-package Java101.Diziler;
-
 public class HarmonikOrtalama {
     public static void main(String[] args) {
         double[] arr = { 1, 2, 3 };
