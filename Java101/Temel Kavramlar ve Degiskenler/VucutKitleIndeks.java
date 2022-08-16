@@ -1,4 +1,4 @@
-public class {
+public class VucutKitleIndeks {
 
 	public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class {
         kilo = girdi.nextInt();
         sonuc = kilo/(boy*boy);
         System.out.println("Vücut Kitle İndeksiniz : "+sonuc);
-        
+
     }
 
 }
