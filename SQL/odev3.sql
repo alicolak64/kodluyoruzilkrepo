@@ -7,17 +7,17 @@
 -- 4-film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
 
 -- Cevap 1-)
-Select country from country
-where country like 'A%a';
+SELECT country FROM country
+WHERE country LIKE 'A%a';
 
 -- Cevap 2-)
-Select country from country
-where country like '_____%n';
+SELECT country FROM country
+WHERE country LIKE '_____%n';
 
 -- Cevap 3-)
-select title from film
-where title ilike '%T%T%T%T%';
+SELECT title FROM film
+WHERE title ILIKE '%T%T%T%T%';
 
 -- Cevap 4-)
-select * from film 
-where title like 'C%' and length>90 and rental_rate=2.99;
+SELECT * FROM film 
+WHERE title LIKE 'C%' AND length>90 AND rental_rate=2.99;
