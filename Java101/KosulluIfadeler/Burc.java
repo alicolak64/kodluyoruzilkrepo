@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Burc  {
+public class Burc {
     public static void main(String[] args) {
         int month, day;
-        String burc= "";
+        String burc = "";
         boolean isError = false;
 
         Scanner scanner = new Scanner(System.in);
@@ -14,97 +14,97 @@ public class Burc  {
 
         if (month == 1) {
             if (day > 0 && day <= 21) {
-                burc= "Oğlak";
+                burc = "Oğlak";
             } else if (day > 0 && day <= 31) {
-                burc= "Kova";
+                burc = "Kova";
             } else
                 isError = true;
 
         } else if (month == 2) {
             if (day > 0 && day <= 19) {
-                burc= "Kova";
+                burc = "Kova";
             } else if (day > 0 && day <= 29) {
-                burc= "Balık";
+                burc = "Balık";
             } else
                 isError = true;
 
         } else if (month == 3) {
             if (day > 0 && day <= 20) {
-                burc= "Balık";
+                burc = "Balık";
             } else if (day > 0 && day <= 31) {
-                burc= "Koç";
+                burc = "Koç";
             } else
                 isError = true;
 
         } else if (month == 4) {
             if (day > 0 && day <= 20) {
-                burc= "Koç";
+                burc = "Koç";
             } else if (day > 0 && day <= 30) {
-                burc= "Boğa";
+                burc = "Boğa";
             } else
                 isError = true;
 
         } else if (month == 5) {
             if (day > 0 && day <= 21) {
-                burc= "Boğa";
+                burc = "Boğa";
             } else if (day > 0 && day <= 31) {
-                burc= "İkizler";
+                burc = "İkizler";
             } else
                 isError = true;
 
         } else if (month == 6) {
             if (day > 0 && day <= 22) {
-                burc= "İkizler";
+                burc = "İkizler";
             } else if (day > 0 && day <= 30) {
-                burc= "Yengeç";
+                burc = "Yengeç";
             } else
                 isError = true;
 
         } else if (month == 7) {
             if (day > 0 && day <= 22) {
-                burc= "Yengeç";
+                burc = "Yengeç";
             } else if (day > 0 && day <= 31) {
-                burc= "Aslan";
+                burc = "Aslan";
             } else
                 isError = true;
 
         } else if (month == 8) {
             if (day > 0 && day <= 22) {
-                burc= "Aslan";
+                burc = "Aslan";
             } else if (day > 0 && day <= 31) {
-                burc= "Başak";
+                burc = "Başak";
             } else
                 isError = true;
 
         } else if (month == 9) {
             if (day > 0 && day <= 22) {
-                burc= "Başak";
+                burc = "Başak";
             } else if (day > 0 && day <= 30) {
-                burc= "Terazi";
+                burc = "Terazi";
             } else
                 isError = true;
 
         } else if (month == 10) {
             if (day > 0 && day <= 22) {
-                burc= "Terazi";
+                burc = "Terazi";
             } else if (day > 0 && day <= 31) {
-                burc= "Akrep";
+                burc = "Akrep";
             } else
                 isError = true;
 
         } else if (month == 11) {
             if (day > 0 && day <= 21) {
-                burc= "Akrep";
+                burc = "Akrep";
             } else if (day > 0 && day <= 30) {
-                burc= "Yay";
+                burc = "Yay";
             } else
                 isError = true;
 
         } else if (month == 12) {
             if (day > 0 && day <= 21) {
-                burc= "Yay";
+                burc = "Yay";
             } else if (day > 0 && day <= 31) {
-                burc= "Oğlak";
+                burc = "Oğlak";
             } else
                 isError = true;
         }

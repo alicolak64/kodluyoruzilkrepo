@@ -4,9 +4,9 @@ public class HavaSicakligiEtkinlik {
     public static void main(String[] args) {
         int heat;
 
-        Scanner scr = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Sıcaklık değerini giriniz : ");
-        heat = scr.nextInt();
+        heat = scanner.nextInt();
 
         if (heat < 5) {
             System.out.println("Kayak yapabilirsiniz...");
