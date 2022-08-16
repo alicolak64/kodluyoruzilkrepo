@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SinifGecme {
+public class SınıfGecme {
     public static void main(String[] args) {
         int Matematik, Fizik, Turkce, Kimya, Muzik;
         Scanner input = new Scanner(System.in);
