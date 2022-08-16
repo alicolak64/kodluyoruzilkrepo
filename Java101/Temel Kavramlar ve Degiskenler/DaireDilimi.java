@@ -5,13 +5,13 @@ public class DaireDilimi {
         double hesapla,pi=3.14;
         int alfa,cap;
         
-        Scanner input=new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
         
         System.out.println("yarıçap değerini giriniz");
-        cap=input.nextInt();
+        cap=scanner.nextInt();
         
         System.out.println("açı değerini giriniz");
-        alfa=input.nextInt();
+        alfa=scanner.nextInt();
         
         hesapla=pi*(cap*cap)*alfa/360;
         System.out.println("sonuç  :"+hesapla);

@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class SınıfGecme {
+public class SinifGecme {
     public static void main(String[] args) {
         int Matematik, Fizik, Turkce, Kimya, Muzik;
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Matematik Notunus Yaziniz");
-        Matematik = input.nextInt();
+        Matematik = scanner.nextInt();
         System.out.println("Fizik Notunus Yaziniz");
-        Fizik = input.nextInt();
+        Fizik = scanner.nextInt();
         System.out.println("Turkce Notunus Yaziniz");
-        Turkce = input.nextInt();
+        Turkce = scanner.nextInt();
         System.out.println("Kimya Notunus Yaziniz");
-        Kimya = input.nextInt();
+        Kimya = scanner.nextInt();
         System.out.println("Muzik Notunus Yaziniz");
-        Muzik = input.nextInt();
+        Muzik = scanner.nextInt();
 
         if (Matematik < 0 || Matematik > 100)
             Matematik = 0;
