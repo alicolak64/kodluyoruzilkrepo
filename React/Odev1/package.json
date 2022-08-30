@@ -7,5 +7,8 @@
     "start": "node index"
   },
   "author": "alicolak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
